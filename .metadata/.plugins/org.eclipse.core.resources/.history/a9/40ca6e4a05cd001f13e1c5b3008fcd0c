@@ -1,0 +1,26 @@
+CREATE TABLE pessoa(
+	codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(50) NOT NULL,
+	ativo BOOLEAN DEFAULT TRUE,
+	longradouro VARCHAR(50) NOT NULL,
+	numero VARCHAR(5) NOT NULL,
+	complemento VARCHAR(100),
+	bairro VARCHAR(50) NOT NULL,
+	cep VARCHAR(8) NOT NULL,
+	cidade VARCHAR(20) NOT NULL,
+	estado VARCHAR (2) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO pessoa (nome, ativo, logradouro, numero, complemento, bairro, cep, cidade, estado)
+VALUES
+('João Silva', TRUE, 'Rua A', '101', 'Apartamento 201', 'Centro', '12345678', 'São Paulo', 'SP'),
+('Maria Oliveira', TRUE, 'Rua B', '202', 'Casa', 'Jardim das Flores', '23456789', 'Rio de Janeiro', 'RJ'),
+('Carlos Souza', TRUE, 'Avenida C', '303', '', 'Vila Mariana', '34567890', 'Belo Horizonte', 'MG'),
+('Ana Costa', TRUE, 'Rua D', '404', 'Sala Comercial 5', 'Itaim Bibi', '45678901', 'São Paulo', 'SP'),
+('Paulo Lima', TRUE, 'Rua E', '505', '', 'Bela Vista', '56789012', 'Curitiba', 'PR'),
+('Luciana Mendes', TRUE, 'Avenida F', '606', 'Andar 3', 'Barra da Tijuca', '67890123', 'Rio de Janeiro', 'RJ'),
+('Fernanda Pereira', TRUE, 'Rua G', '707', '', 'Moema', '78901234', 'São Paulo', 'SP'),
+('Ricardo Almeida', TRUE, 'Rua H', '808', 'Cobertura', 'Liberdade', '89012345', 'Salvador', 'BA'),
+('Roberta Rocha', TRUE, 'Avenida I', '909', '', 'Centro Histórico', '90123456', 'Fortaleza', 'CE'),
+('Eduardo Martins', TRUE, 'Rua J', '1010', 'Bloco B', 'Centro', '01234567', 'Porto Alegre', 'RS');
+

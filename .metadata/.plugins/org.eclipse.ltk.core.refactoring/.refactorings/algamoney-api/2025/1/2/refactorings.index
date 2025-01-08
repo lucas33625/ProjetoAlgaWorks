@@ -1,0 +1,18 @@
+1736181171592	Delete element
+1736181191153	Delete elements
+1736184350005	Rename package 'com.example.algamoney.api.model'
+1736184368272	Rename package 'com.example.algamoney.api.resource'
+1736184382659	Rename package 'com.example.algamoney.api.repository'
+1736184500194	Copy package
+1736184506024	Delete element
+1736184522440	Copy package
+1736184537755	Delete element
+1736184726453	Rename package 'model'
+1736185059188	Move compilation unit
+1736185064958	Delete element
+1736185732934	Delete element
+1736185839391	Delete element
+1736185857723	Delete element
+1736259491188	Rename resource 'V01_criar_e_registrar_pessoa.sql'
+1736273764689	Extract method 'adicionarHeaderLocation'
+1736345235172	Extract method 'buscarPessoaPeloCodigo'
